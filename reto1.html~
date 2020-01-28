@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body{
+	padding:0px; 
+	margin:0px;
+	background-color:gray;
+}
+
+.encabezado{
+	background-color: white; 
+	height:140px;
+}
+
+#logo{
+	float: left;
+	margin-left: 50px;
+	margin-top: 30px;
+	
+}
+
+.cajaderecha{
+	width: 65%;
+	float: right;
+	border: 1px solid red;
+}
+
+.menu, .RS{
+	border:1px solid blue;
+}
+
+.menu{
+	float: left;
+}
+
+.boton{
+	float:  left;
+	background-color: #DE1E22;
+	color: white;
+	text-transform: uppercase;
+	font-family: Tahoma;
+	font-size: 10pt;
+	padding: 20px 30px 20px 30px;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: background-color .3s linear;
+	
+}
+.boton:hover{
+	background-color: #FFA900;
+}
+
+.menu div a{
+	color: black;
+	text-transform: uppercase;
+	font-family: Tahoma;
+	font-size: .9em;
+	text-decoration: none;
+	padding: 20px 10px 20px 10px;
+	display: block;
+	transition: color .2s linear;
+}
+
+.menu div a:hover{
+	color: #DE1E22;
+}
+
+.RS{
+	float: right;
+}
+
+.menu div{
+	float: left;
+}
+
+</style>
+</head>
+
+<body>
+	<div class="encabezado">
+		<img id="logo" src="Grill.png" alt="Logo de la empresas">
+		<div class= "cajaderecha">
+			<nav class="menu">
+				<div><a href="#">Home</a></div>
+				<div><a href="#">Pages</a></div>
+				<div><a href="#">Menu</a></div>
+				<div><a href="#">Reservation</a></div>
+				<div><a href="#">Contacts</a></div>			
+			</nav>
+			<a class="boton" href="#">Suscribete</a>
+			<section class="RS">
+				<i>F</i>
+				<i>T</i>
+				<i>I</i>			
+			</section>
+		</div>
+	</div>
+</body>
+</html>
