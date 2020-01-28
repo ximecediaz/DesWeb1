@@ -90,6 +90,9 @@ body{
 			</nav>
 			<a class="boton" href="#">Suscribete</a>
 			<section class="RS">
+				<span style="font-size: 3em; color: Tomato;">
+  				<i class="fas fa-camera"></i>
+				</span>
 				<i>F</i>
 				<i>T</i>
 				<i>I</i>			
