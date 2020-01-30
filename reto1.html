@@ -9,6 +9,11 @@ body{
 	background-color:gray;
 }
 
+#fondo{
+	padding: 0px;
+	margin: 0px;
+}
+
 .encabezado{
 	background-color: white; 
 	height:140px;
@@ -75,6 +80,31 @@ body{
 	float: left;
 }
 
+.fa-facebook-f{
+	color: #FFA900;
+	
+}
+
+.fa-twitter{
+	color: #FFA900;
+}
+
+.fa-instagram{
+	color: #FFA900;
+}
+
+.circle{
+	border-radius: 100%;
+	color: none;
+	
+	border-color: #FFA900;
+	transition: color .2 linear;
+}
+
+.circle:hover{
+	color: #FFA900;
+}
+
 </style>
 </head>
 
@@ -91,11 +121,14 @@ body{
 			</nav>
 			<a class="boton" href="#">Suscribete</a>
 			<section class="RS">
-				<i class="fab fa-facebook-f"></i>
-				<i class="fab fa-twitter"></i>
-				<i class="fab fa-instagram"></i>		
+				<a class="circle" href="#">
+					<i class="fab fa-facebook-f fa-xs"></i>
+				</a>
+				<i class="fab fa-twitter fa-xs"></i>
+				<i class="fab fa-instagram fa-xs"></i>		
 			</section>
 		</div>
 	</div>
+	<img id="fondo" src="carne.jpg">
 </body>
 </html>
