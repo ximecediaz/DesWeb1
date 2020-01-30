@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script src="https://kit.fontawesome.com/797bb9372c.js" crossorigin="anonymous"></script>
 <style type="text/css">
 body{
 	padding:0px; 
@@ -90,12 +91,9 @@ body{
 			</nav>
 			<a class="boton" href="#">Suscribete</a>
 			<section class="RS">
-				<span style="font-size: 3em; color: Tomato;">
-  				<i class="fas fa-camera"></i>
-				</span>
-				<i>F</i>
-				<i>T</i>
-				<i>I</i>			
+				<i class="fab fa-facebook-f"></i>
+				<i class="fab fa-twitter"></i>
+				<i class="fab fa-instagram"></i>		
 			</section>
 		</div>
 	</div>
