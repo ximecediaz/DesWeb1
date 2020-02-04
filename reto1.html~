@@ -29,11 +29,11 @@ body{
 .cajaderecha{
 	width: 65%;
 	float: right;
-	border: 1px solid red;
+	height: 140px;
 }
 
-.menu, .RS{
-	border:1px solid blue;
+.menu, .RS, .boton{
+	margin-top: 50px;
 }
 
 .menu{
@@ -76,6 +76,7 @@ body{
 
 .RS{
 	float: right;
+	padding: 10px;
 }
 
 .menu div{
@@ -95,20 +96,19 @@ body{
 	color: #FFA900;
 }
 
-.circle{
-	border: solid black 1px;
-	border-radius: 100px;
-	height: 5px;
-	padding: 30px;
-	margin: 30px;
-	color: none;
-	transition: color .2 linear;
-
+.RS i{
+	border-radius: 50%;
+	padding: 15px;
+	border: 2px solid #FFA900;
+	min-width: 15px;
+	text-align: center;
 }
 
-.circle:hover{
-	color: #FFA900;
+.RS i:hover{
+	background-color: #FFA900;
+	color:white;
 }
+
 
 </style>
 </head>
@@ -126,9 +126,7 @@ body{
 			</nav>
 			<a class="boton" href="#">Suscribete</a>
 			<section class="RS">
-				<a class="circle" href="#">
-					<i class="fab fa-facebook-f fa-xs"></i>
-				</a>
+				<i class="fab fa-facebook-f fa-xs"></i>
 				<i class="fab fa-twitter fa-xs"></i>
 				<i class="fab fa-instagram fa-xs"></i>		
 			</section>
