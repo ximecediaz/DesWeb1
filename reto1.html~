@@ -38,6 +38,8 @@ body{
 
 .menu{
 	float: left;
+	text-transform: uppercase;
+	font-family: oswald,sans-serif;
 }
 
 .boton{
@@ -45,7 +47,7 @@ body{
 	background-color: #DE1E22;
 	color: white;
 	text-transform: uppercase;
-	font-family: Tahoma;
+	font-family: oswald,sans-serif;
 	font-size: 10pt;
 	padding: 20px 30px 20px 30px;
 	border-radius: 5px;
@@ -59,8 +61,6 @@ body{
 
 .menu div a{
 	color: black;
-	text-transform: uppercase;
-	font-family: oswald,sans-serif;
 	font-weight: 500;
 	letter-spacing: .025em;
 	font-size: .875rem;
