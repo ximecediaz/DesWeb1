@@ -55,6 +55,40 @@ body{
 	color: #DE1E22;
 }
 
+.navegacion{
+	background-color: white;
+	height: 200px;
+}
+
+.logo img{
+	float: left;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+.boton{
+	background-color: #eb3751;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	height: 24px;
+	float: right;
+	margin-top: 40px;
+	margin-right: 40px;
+	text-decoration: none;
+	font-family: ubuntu,sans-serif;
+	font-size: 16px;
+	padding: 10px 5px 10px 5px;
+	width: 18%;
+	vertical-align: middle;
+}
+
+.menu{
+	border-bottom: 1px solid #b7b7b7;
+	padding: 10px 15px;
+	max-width: 1200px;
+}
+
 </style>
 </head>
 
@@ -74,6 +108,15 @@ body{
 		<i class="fab fa-google"></i>
 		<i class="fas fa-rss"></i>
 	</section>
+</div>
+<div class="navegacion">
+	<div><a class="logo" href="#"><img src="homeLogo.png" alt="Grand State"></a></div>
+	<div><a class="boton" href="#">Submit property</a></div>
+	<div class="menu">
+		<nav>
+				
+		</nav>
+	</div>
 </div>
 </body>
 </html>
