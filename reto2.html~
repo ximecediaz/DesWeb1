@@ -87,6 +87,7 @@ body{
 	border-bottom: 1px solid #b7b7b7;
 	padding: 10px 15px;
 	max-width: 1200px;
+	max-height: 80px;
 }
 
 </style>
