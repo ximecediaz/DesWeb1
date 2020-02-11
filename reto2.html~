@@ -60,10 +60,15 @@ body{
 	height: 200px;
 }
 
-.logo img{
-	float: left;
+.logo{
+	display: inline;
+	
+}
+
+#home{
 	margin-top: 40px;
 	margin-left: 40px;
+	float: left;
 }
 
 .boton{
@@ -72,7 +77,6 @@ body{
 	color: white;
 	text-transform: uppercase;
 	height: 24px;
-	float: right;
 	margin-top: 40px;
 	margin-right: 40px;
 	text-decoration: none;
@@ -81,13 +85,27 @@ body{
 	padding: 10px 5px 10px 5px;
 	width: 18%;
 	vertical-align: middle;
+	float: right;
 }
 
 .menu{
-	border-bottom: 1px solid #b7b7b7;
-	padding: 10px 15px;
+	border-top: 1px solid #b7b7b7;
+	position: relative;
 	max-width: 1200px;
 	max-height: 80px;
+
+}
+
+.menu div{
+	float: left;
+}
+
+.menu div a{
+	text-decoration: none;
+	color: #eb3751;
+	text-transform:uppercase; 
+	padding: 20px 10px 20px 10px;
+
 }
 
 </style>
@@ -111,13 +129,18 @@ body{
 	</section>
 </div>
 <div class="navegacion">
-	<div><a class="logo" href="#"><img src="homeLogo.png" alt="Grand State"></a></div>
-	<div><a class="boton" href="#">Submit property</a></div>
-	<div class="menu">
-		<nav>
-				
+	<a class="logo" href="#"><img id="home" src="homeLogo.png" alt="Grand State"></a>
+	<a class="boton" href="#">Submit property</a>
+		<nav class="menu">
+			<div><a href="#">Home</a></div>
+			<div><a href="#">Elements</a></div>
+			<div><a href="#">Features</a></div>
+			<div><a href="#">Extras</a></div>
+			<div><a href="#">Property catalog</a></div>
+			<div><a href="#">Pages</a></div>
+			<div><a href="#">Blog</a></div>
+			<div><a href="#">Gallery</a></div>		
 		</nav>
-	</div>
 </div>
 </body>
 </html>
