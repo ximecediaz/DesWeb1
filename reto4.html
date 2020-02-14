@@ -15,6 +15,8 @@
 
 .product{
 	position: relative;
+	margin-bottom: 50px;
+	height: 350px;
 }
 
 .product div{
@@ -100,25 +102,35 @@ div .new{
 	margin: 5px;
 }
 
-.fa-search{
+i{
 	border-radius: 50%;
-	background-color: #e9da5d;
 	min-width: 15px;
 	padding: 15px;
 	visibility: hidden;
 	transform: scale(0);
+}
+
+.elements .fa-search{
+	background-color: #e9da5d;
+	
 	transition: all 0.5s;
 }
 
 .fa-shopping-cart{
-	border-radius: 50%;	
 	color: white;
 	background-color: #92c5d9;
-	min-width: 15px;
-	padding: 15px;
-	visibility: hidden;
-	transform: scale(0);
 	transition: all 1.1s;
+}
+
+.fa-shopping-cart:hover{
+	color: black;
+	background-color: #e9da5d; 
+}
+
+
+.elements .fa-search:hover{
+	color: white;
+	background-color: #92c5d9; 
 }
 
 .elements:hover i{
@@ -127,8 +139,92 @@ div .new{
 }
 
 .box{
-
+	height: 400px;
+	width: 400px;
+	margin: 50px;
+	position: relative;
+	float: left;
 }
+
+section .fa-search{
+	background-color: white;
+	transition: all 0.5s;
+	position: relative;
+	top: -180px;
+	left: 130px;
+}
+
+.box:hover i{
+	visibility: visible;
+	transform: scale(1);
+	left: 170px;
+	top: -220px;
+}
+
+.box .fa-search:hover{
+	background-color: #92c5d9;
+}
+
+.capa{
+	width: 400px;
+	height: 400px;
+	background-color: black;
+	opacity: 0;
+	position: relative;
+	transition: all 0.3s;
+	transform: scale(0.8);
+	
+}
+
+.box:hover .capa{
+	opacity: 0.6;
+	transform: scale(1);
+}
+
+.enlace{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	position: relative;
+	font-family: arial narrow;
+	top: -330px;
+	text-transform: uppercase;
+	left: 120px;
+	font-size: 20px;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.3s;
+}
+
+.box:hover .enlace{
+	visibility: visible;
+	opacity: 1;
+	top: -300px;
+}
+
+
+.enlace:hover{
+	color: #92c5d9;
+}
+
+.texto{
+	position: relative;
+	top: -240px;
+	color: #92c5d9;
+	font-family: courier new;
+	text-transform: uppercase;
+	left: 170px;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.3s;
+}
+
+.box:hover .texto{
+	visibility: visible;
+	opacity: 1;
+	top: -300px;
+}
+
 
 </style>
 </head>
@@ -197,16 +293,34 @@ div .new{
 
 </div>
 
-<div class="titulo">Portfolio</div>
-<section>
-	<div class="box" style="background-image: interior1.jpg">
+<h1 class="titulo">Portfolio</h1>
+<section style="height: 1000px; padding-left: 130px;">
+	<div class="box" style="background-image: url(interior1.jpg);">
 		<div class="capa"></div>
-		<a class="enlace" href="#"></a>
-		<p></p>
+		<a class="enlace" href="#">Casa de flores</a>
+		<p class="texto">Decor</p>
 		<i class="fas fa-search"></i>	
 	</div>
-</section>
+	<div class="box" style="background-image: url(interior2.jpeg);">
+		<div class="capa"></div>
+		<a class="enlace" href="#">Oficina</a>
+		<p class="texto">Art</p>
+		<i class="fas fa-search"></i>	
+	</div>
+	<div class="box" style="background-image: url(interior3.jpeg);">
+		<div class="capa"></div>
+		<a class="enlace" href="#">Minimalismo</a>
+		<p class="texto">Decor</p>
+		<i class="fas fa-search"></i>	
+	</div>
+	<div class="box" style="background-image: url(interior4.jpeg);">
+		<div class="capa"></div>
+		<a class="enlace" href="#">Diseño de interiores</a>
+		<p class="texto">Hogar</p>
+		<i class="fas fa-search"></i>	
+	</div>
 
+</section>
 
 
 </body>
